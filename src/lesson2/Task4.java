@@ -1,7 +1,4 @@
-package com.github.olya.fedyak.lesson2;
-
-import java.util.Arrays;
-import java.util.Random;
+package lesson2;
 
 public class Task4 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.github.olya.fedyak.lesson2;
+package lesson2;
 
 public class Task11 {
     public static void main(String[] args) {
