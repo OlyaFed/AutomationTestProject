@@ -25,7 +25,7 @@ public class Task12 {
                     swapped = true;
                 }
             }
-        } while (swapped != false);
+        } while (swapped);
 
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(array2));

@@ -11,7 +11,7 @@ public class Task10 {
             arrayOne[a] = rn.nextInt(10) + 1;
         }
         for (int a = 0; a < arrayOne.length; a++) {
-            if (a != 0 && a != 9) {
+            if (a != 0 && a != arrayOne.length-1) {
                 sum = sum + arrayOne[a];
             }
         }
