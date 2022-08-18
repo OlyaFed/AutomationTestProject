@@ -3,13 +3,10 @@ package lesson5;
 //Create a third class with the main method.
 //In the main method create two different objects of your classes specifying the full name of the classes (including packages).
 
-import Tests.com.domainname.Modulename;
-import com.sun.org.apache.xpath.internal.operations.Mod;
-
 public class Task5 {
     public static void main(String[] args) {
-        class Modulename{}
-        Modulename fromLesson5 = new Modulename();
-        Modulename fromTestcomDomain = new Modulename();
+
+        lesson5.com1.Modulename fromLesson5 = new lesson5.com1.Modulename();
+        lesson5.com.domainname.Modulename fromTestcomDomain = new lesson5.com.domainname.Modulename();
     }
 }
