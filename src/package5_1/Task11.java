@@ -22,6 +22,5 @@ class N {
         System.out.println(this.k);
     }
 }
-
 class N1 extends N {
 }
