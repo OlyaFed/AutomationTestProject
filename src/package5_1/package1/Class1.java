@@ -4,11 +4,11 @@ public class Class1 {
     int k = 9;
     String j = "Hello";
 
-    public int getK() {
+     int getK() {
         return k;
     }
 
-    public String getJ(){
+    String getJ(){
         return j;
     }
 }

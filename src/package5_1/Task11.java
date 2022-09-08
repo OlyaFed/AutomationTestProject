@@ -1,6 +1,10 @@
 package package5_1;
 //What is the difference between package-private access and protected access?
 
+//Answer: The access level of a protected modifier is within the package and outside the package through child class.
+
+//package-private access allows access within one package.
+
 
 public class Task11 {
     public static void main(String[] args) {
