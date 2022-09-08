@@ -1,5 +1,21 @@
 package lesson6;
 
-public class Car extends Vehicle{
-public Car (String name, String size){super (name, size);
-}}
+class Car extends Vehicle{
+    private int currentDirection = 35;
+    private int currentVelocity = 98;
+
+    public void steer(int direction) {
+        this.currentDirection += direction;
+        System.out.println("Car.steer(): Steering at " + currentDirection + "degrees.");
+    }
+    public void move(int velocity, int direction){
+        currentVelocity = velocity;
+        currentDirection = direction;
+        System.out.println("Car.move(): Moving at " + currentVelocity + "in direction " + currentDirection);
+
+    }
+    public void stop(){
+        this.currentVelocity = 0;
+
+    }
+}

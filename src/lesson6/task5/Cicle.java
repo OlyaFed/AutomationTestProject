@@ -7,6 +7,6 @@ public class Cicle extends Figure {
 
     @Override
     int calculateArea() {
-        return (int) 3.14 *this.height/2* this.height/2;
+        return (int) Math.PI *this.height/2* this.height/2;
     }
 }

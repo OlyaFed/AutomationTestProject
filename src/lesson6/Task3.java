@@ -9,19 +9,3 @@ package lesson6;
 
 
 
-public class Task3 {
-
-    public static void main(String[] args) {
-        Carsoul soul = new Carsoul("Soul", "4m");
-        Carsoul carsoul = new Carsoul("soul", "crossover");
-        System.out.println(carsoul.getCurrentVelocity());
-        System.out.println(carsoul.getName());
-        System.out.println(carsoul.getSize());
-        System.out.println(carsoul.getCurrentDirection());
-        carsoul.move(15, 150);
-        carsoul.steer(176);
-        carsoul.stop();
-        System.out.println("this car "+ soul.getName());
-
-    }
-}
