@@ -1,4 +1,5 @@
 package lesson8;
+
 //3. Finish the program to handle all the possible exceptions:
 //public class Main {
 //
@@ -14,25 +15,17 @@ package lesson8;
 //
 //}
 public class Task3 {
-        public static void main(String[] args) {
-            try{
-                int a = args.length;;
-                System.out.println(a);
-
+    public static void main(String[] args) {
+        int a = args.length;
+            try {
                 int b = 10 / a; //ArithmeticException
-
-            } catch (ArithmeticException e){
-                System.out.println(e);
-            }
-
-            try{
                 int[] c = {1};
-                System.out.println(c[1]); //ArrayIndexOutOfBoundsException
-            }
-            catch (ArrayIndexOutOfBoundsException e){
+                int a1 = c[1]; //ArrayIndexOutOfBoundsException
+            } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println(e);
+            } catch (ArithmeticException e) {
+                System.out.println(e.getMessage());
             }
-
 
     }
 }

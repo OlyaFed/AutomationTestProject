@@ -20,12 +20,13 @@ public class Task6 {
         try {
             while (true) {
                 Scanner sc =new Scanner(System.in);
+                System.out.print("enter number ");
                 int number = sc.nextInt();
                 result.add(number);
             }
         } catch (InputMismatchException e) {
             for (Integer element : result) {
-                System.out.println("from catch block" + element);
+                System.out.println("from catch block " + element);
             }
             System.out.println(e);
         }

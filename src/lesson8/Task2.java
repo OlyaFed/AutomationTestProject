@@ -16,19 +16,17 @@ package lesson8;
 //}
 public class Task2 {
     public static void main(String[] args) {
-        System.out.println(divideByZero());
+        try {
+            divideByZero();
+        } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
+
+        }
     }
 
-    public static String divideByZero() {
-        String result = null;
-
-        try {
+        public static int divideByZero() {
             int a = 5;
             int b = 0;
-            result = a / b + "";
-        } catch (ArithmeticException ae) {
-            result = "ArithmeticException";
+            return a / b;
         }
-        return result;
     }
-}
